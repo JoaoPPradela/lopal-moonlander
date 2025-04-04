@@ -97,6 +97,7 @@ function mostrarAltitude(){
     
 
 }
+
 function mostrarAngulo(){
     mostrarIdicador(
         mensagem =`Ângulo: ${(moduloLunar.angulo * 180 / Math.PI).toFixed(0)}°`,
